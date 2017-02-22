@@ -23,6 +23,6 @@ public class Principal extends AppCompatActivity {
     public void Saludar(View v){
         String aux;
         aux = cajaNombre.getText().toString();
-        cajaSaludo.setText("Hola "+aux);
+        cajaSaludo.setText(getResources().getString(R.string.Hola)+" "+aux);
     }
 }
